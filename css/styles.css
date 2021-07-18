@@ -1,0 +1,62 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+html{scroll-behavior:smooth;}
+
+body {
+	background:linear-gradient(black,gray,black);
+	font-family:Consolas;
+	
+}
+
+#nav_container {
+	background:rgba(0,0,0,0.9);
+	height:10vh;
+	width:100vw;
+	position:fixed;
+}
+#nav_container ul {
+	height:10vh;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:space-evenly;
+	align-items:center;
+}
+.nav_items {
+	list-style:none;
+}
+.nav_items a {
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:25px;
+	transition:0.6s;
+}
+.nav_items a:hover {
+	text-shadow:1px 1px 5px white;
+	transition:0.6s;
+}
+
+/*STYLES LANDING,ABOUT,SKILLS AND PROJECTS CONTAINER*/
+
+#about_container,#skills_container,#projects_container,#landing_container {
+	height:100vh;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+	align-items:center;
+	border-bottom:1px solid white;
+	background:rgba(0,0,0,0.6);
+}
+
+#landing_container h1,
+#about_container h1,
+#skills_container h1,
+#projects_container h1{
+	color:white;
+	font-weight:bold;
+	font-size:80px;
+	text-shadow:1px 2px 5px white;
+}
