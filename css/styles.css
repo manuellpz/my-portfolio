@@ -44,19 +44,50 @@ body {
 #about_container,#skills_container,#projects_container,#landing_container {
 	height:100vh;
 	display:flex;
-	flex-flow:row wrap;
+	flex-flow:column wrap;
 	justify-content:center;
 	align-items:center;
 	border-bottom:1px solid white;
 	background:rgba(0,0,0,0.6);
 }
 
-#landing_container h1,
-#about_container h1,
-#skills_container h1,
-#projects_container h1{
+.title_container{
 	color:white;
 	font-weight:bold;
-	font-size:80px;
 	text-shadow:1px 2px 5px white;
+	font-size: 65px;
+}
+
+/*SKILLS*/
+.container_skills {
+	padding:10px;
+	width:90vw;
+	height: auto;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.skills_table {
+	width:80vw;
+	display:flex;
+	justify-content: space-evenly;
+}
+.skills_item:nth-child(1){
+	filter:drop-shadow(3px 5px 10px #ff5722);
+}
+.skills_item:nth-child(2){
+	filter:drop-shadow(3px 5px 10px #2196f3);
+}
+.skills_item:nth-child(3){
+	filter:drop-shadow(3px 5px 10px #f7df1e);
+}
+.skills_item:nth-child(4){
+	filter:drop-shadow(3px 5px 10px #777bb3);
+}
+.skills_item:nth-child(5){
+	filter:drop-shadow(3px 5px 10px white);
+}
+.skills_item:nth-child(6){
+	filter:drop-shadow(3px 5px 10px #de4c36);
 }
