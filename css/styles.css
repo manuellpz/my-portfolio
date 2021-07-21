@@ -7,7 +7,7 @@ html{scroll-behavior:smooth;}
 
 body {
 	background:linear-gradient(black,gray,black);
-	font-family:Consolas;
+	font-family:'Jetbrains Mono';
 	
 }
 
@@ -47,7 +47,7 @@ body {
 	flex-flow:column wrap;
 	justify-content:center;
 	align-items:center;
-	border-bottom:1px solid white;
+	/*border-bottom:1px solid white;*/
 	background:rgba(0,0,0,0.6);
 }
 
