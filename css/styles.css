@@ -47,7 +47,6 @@ body {
 	flex-flow:column wrap;
 	justify-content:center;
 	align-items:center;
-	/*border-bottom:1px solid white;*/
 	background:rgba(0,0,0,0.6);
 }
 
@@ -71,6 +70,7 @@ body {
 .skills_table {
 	width:80vw;
 	display:flex;
+	flex-flow: row wrap;
 	justify-content: space-evenly;
 }
 .skills_item:nth-child(1){
