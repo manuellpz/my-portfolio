@@ -1,2 +1,2 @@
 #  MY PORTFOLIO
-This is my portofolio for Web Developer
+This is my portofolio for Web Developer.
