@@ -8,7 +8,6 @@ html{scroll-behavior:smooth;}
 body {
 	background:linear-gradient(black,gray,black);
 	font-family:'Jetbrains Mono';
-	
 }
 
 #nav_container {
@@ -95,11 +94,15 @@ body {
 /*PROJECTS*/
 
 .projects_container_items {
-	width: 80vw;
+	width: 95vw;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow:row wrap;
 }
 .projects_item {
-	width:100%;
-	height:100%;
+	width:80%;
+	height:auto;
 	text-align: center;
 	color:white;
 	display:flex;
@@ -110,9 +113,9 @@ body {
 	width:50%;
 	height: 100%;
 	border-radius:8px;
-	display:inline;
+	/* display:inline; */
 	filter:drop-shadow(3px 5px 15px gray);
 }
 .description_project {
-	width:40%;
+	width:30%;
 }
