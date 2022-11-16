@@ -6,7 +6,7 @@
 html{scroll-behavior:smooth;}
 
 body {
-	background:linear-gradient(black,gray,black);
+	background:#222;
 	font-family:'Jetbrains Mono';
 }
 
@@ -46,7 +46,7 @@ body {
 	flex-flow:column nowrap;
 	justify-content:center;
 	align-items:center;
-	background:rgba(0,0,0,0.6);
+	/* background:rgba(0,0,0,0.6); */
 }
 
 .title_container{
@@ -65,6 +65,9 @@ body {
 	flex-flow: column nowrap;
 	justify-content: center;
 	align-items: center;
+	opacity:0;
+	transform: scale(0);
+	transition:0.4s;
 }
 .skills_table {
 	width:80vw;
@@ -92,6 +95,11 @@ body {
 }
 
 /*PROJECTS*/
+.projects_container {
+	opacity: 0;
+	transform: scale(0);
+	transition: 0.4s;
+}
 
 .projects_container_items {
 	width: 100vw;
@@ -119,4 +127,9 @@ body {
 }
 .description_project {
 	width:30%;
+}
+.active {
+	opacity:1;
+	transform: scale(1);
+	transition:0.4s;
 }
