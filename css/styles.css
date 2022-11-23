@@ -15,6 +15,7 @@ body {
 	height:10vh;
 	width:100vw;
 	position:fixed;
+	z-index:999;
 }
 #nav_container ul {
 	height:10vh;
